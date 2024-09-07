@@ -1,0 +1,1168 @@
+body{
+    background-color: whitesmoke;
+    /* margin-top: 96px; */
+    font-family: sans-serif;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+
+.btn{
+    background-color: #e12454 !important;
+    color: white !important;
+}
+.main {
+    background-image: url(home.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.main .slide-text2{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 50px;
+}
+.main .slide-text3{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 180px !important;
+    
+}
+.slide-text2{
+    color: #223a66;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.background1{
+    background-color: white;
+}
+.background1:hover svg{
+    animation-name: animation;
+    animation-duration: 0.5s;    
+}
+.slide-text3{
+    color: #842029;
+    
+}
+.small{
+    background-color: lightblue;
+    border-radius: 70px;
+    height: 80px;
+    width: 80px;
+}
+.small1
+{
+    background-color: lightgreen;
+    border-radius: 70px;
+    height: 80px;
+    width: 80px;
+
+}
+.small2
+{
+    background-color: #f17732;
+    border-radius: 70px;
+    height: 80px;
+    width: 80px;
+
+}
+.small3
+{
+    background-color: #565acf;
+    border-radius: 70px;
+    height: 80px;
+    width: 80px;
+
+}
+.borders1{
+border: 2px solid lightblue;
+border-radius: 10px;
+}
+.borders2{
+    border: 2px solid lightgreen;
+    border-radius: 10px;
+}
+.borders3{
+    border: 2px solid #f17732;
+    border-radius: 10px;
+}
+.borders4{
+    border: 2px solid #565acf;
+    border-radius: 10px;
+}
+.cards1{
+    background-color:white;
+    height:400px;
+    width: 500px;
+    border-radius: 30px;
+
+}
+.cards{
+    background-color:white;
+    height:400px;
+    width: 500px;
+    border-radius: 30px;
+  }
+  .cards .slide-text3{
+      font-size: 20px;
+  }
+  .cards:hover .slide-text2{
+      color: white;
+  }
+  .cards:hover .slide-text3{
+      color: white;
+  }
+  .cards:hover .slide-text4{
+      color: white;
+  }
+  .cards:hover .slide-text5{
+      color: white;
+  }
+  .cards:hover .borderfont{
+      color: white;
+  }
+  .cards:hover svg{
+    animation-name: animation;
+    animation-duration: 0.5s;    
+  }
+
+
+  .cards1 .slide-text3{
+    font-size: 20px;
+}
+.cards1:hover .slide-text2{
+    color: white;
+}
+.cards1:hover .slide-text3{
+    color: white;
+}
+.cards1:hover .slide-text4{
+    color: white;
+}
+.cards1:hover .slide-text5{
+    color: white;
+}
+.cards1:hover .borderfont{
+    color: white;
+}
+.cards1:hover svg{
+  animation-name: animation;
+  animation-duration: 0.5s;    
+}
+  .doctor1 {
+    height:400px;
+    width: 400px;
+    background-image: url(1doctor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    background-position: center;
+}
+  .doctor1 .slide-text2{
+    color: #1767f0;
+  }
+  .doctor1 .slide-text3{
+      font-family: sans-serif;
+      font-weight: bold;
+  }
+.doctor1:hover{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+    border: 5px solid violet;
+}
+  
+.doctor2{
+    background-color:white;
+    height:400px;
+    width: 400px;
+    border-radius: 30px;
+    background-image: url(2doctor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid lightblue;
+    background-position: center;
+}
+.doctor2 .slide-text3{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.doctor2 .slide-text2{
+    color: #1767f0;
+  }
+
+.doctor2:hover{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+    border: 5px solid violet;
+}
+.doctor3{
+    background-color:white;
+    height:400px;
+    width: 400px;
+    border-radius: 30px;
+    background-image: url(3do.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-position: center;
+}
+.doctor3 .slide-text3{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.doctor3 .slide-text2{
+    color: #1767f0;
+  }
+.doctor3:hover{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+    border: 5px solid violet;
+}
+
+.display{
+    display: flex;
+    /* margin-left: 900px !important; */
+}
+.display1{
+    display: flex;
+}
+.cards:hover{
+    background-color: #223a66;
+    color: white;
+   }
+   .cards1:hover{
+    background-color: #223a66;
+    color: white;
+   }
+ 
+.slide-text4{
+    margin-top: 180px !important;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #223a66;
+    font-size: 25px;
+}
+.slide-text5{
+    margin-top: 35px !important;
+    color: #842029;
+    font-size: 20px;
+    font-weight: 400;
+    }
+.borderfont{
+    position: absolute;
+    font-family: sans-serif;
+    transform: translate(-50%,-50%);
+    color: #223a66;
+    font-size: 6em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    margin-top: 50px;
+}
+.btn{
+    background-color: #e12454;
+    color: white;
+}
+.btn:hover
+{
+    background-color: white;
+    color: #e12454;
+}
+
+
+.insidetext{
+    margin-top: 85px !important;
+}
+.insidetext1{
+    margin-top: 20px !important;
+}
+@keyframes animation{
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.doctor1 .slide-text2{
+    margin-top: 280px;
+}
+
+.doctor2 .slide-text2{
+    margin-top: 280px;
+}
+.doctor3 .slide-text2{
+    margin-top: 280px;
+}
+.animations{
+    position: absolute;
+    top: 300%;
+    left: 0;
+    animation: up-down 1s infinite alternate;
+
+}
+.animations1{
+    position: absolute;
+    top: 200%;
+    left: 90%;  
+    animation: up-down 1s infinite alternate;
+  
+}          
+.animations2{
+    position: absolute;
+    top: 40%;
+    left: 0%;    
+    animation: up-down 1s infinite alternate;
+
+}          
+.animations3{
+    position: absolute;
+    top: 90%;
+    left: 30%;    
+    animation: up-down 1s infinite alternate;
+
+}          
+.animations4{
+    position: absolute;
+    top: 380%;
+    left: 30%;    
+    animation: up-down 1s infinite alternate;
+
+}          
+.animations5{
+    position: absolute;
+    top: 270%;
+    left: 80%;    
+    animation: up-down1 1s infinite alternate;
+
+}          
+.animations6{
+    position: absolute;
+    top: 110%;
+    left: 90%;    
+    animation: up-down2 3s infinite alternate;
+
+}          
+.animations7{
+    position: absolute;
+    top: 230%;
+    left: 0%;    
+    animation: up-down3 1s infinite alternate;
+
+}          
+.animations8{
+    position: absolute;
+    top: 130%;
+    left: 5%;    
+    animation: up-down 1s infinite alternate;
+
+}          
+.animations9{
+    position: absolute;
+    top: 370%;
+    left: 5%;    
+    animation: up-down 1s infinite alternate;
+
+}          
+.animations10{
+    position: absolute;
+    top: 340%;
+    left: 80%;    
+    animation: up-down1 1s infinite alternate;
+
+}        
+@keyframes up-down{
+    from{transform: translate(0%,0%);}
+    to{
+        transform: translate(0%,20%);
+    }
+}
+@keyframes up-down1{
+    from{transform: translate(0%,0%);}
+    to{
+        transform: translate(20%,0%);
+    }
+}
+@keyframes up-down2{
+    from{transform: rotate(0deg);}
+    to{
+        transform: rotate(180deg);
+    }
+}
+@keyframes up-down3{
+    from{transform: translate(10%,10%);}
+    to{
+        transform: translate(20%,20%);
+    }
+}
+
+
+
+div{
+    border: 1px solid transparent;
+
+}
+.flex{
+    display: flex !important;
+}
+.image
+ {
+   width:50px;
+   height:50px;
+   
+  }
+
+
+  @media (min-width:279px) 
+  {    .display{
+      display: block;
+      }  
+      body{
+          overflow-x: hidden;
+      } 
+      .mobile{
+          height: 300px;
+          width: 300px;
+      }
+      .cards{
+          height: 400px;
+          width: 270px;
+          margin-left: 10px !important;
+      }
+      .cards1{
+          height: 400px;
+          width: 270px;
+          margin-left: 10px !important;
+      }
+      .formargin{
+          margin-left: 0px !important;
+      }
+      .slide-text4{
+          margin-top: 100px !important;
+      }
+      .doctor1{
+          height: 400px !important;
+          width: 270px !important;
+          margin-left: 0px !important;
+        
+          }
+      .doctor2{
+          height: 400px;
+          width: 270px;
+          margin-left: 0px !important; 
+      }
+      .doctor3{
+          height: 400px;
+          width: 270px;
+          margin-left: 0px !important;
+      }
+      .main{
+          width: 400px;
+      }
+    
+      .main .slide-text2{
+          font-size: 45px;
+          margin-top: 15px !important;
+      }
+      .main .slide-text3{
+          font-size: 40px;
+          margin-top: 20px !important;
+      }
+      .square{
+          margin-left: 100px !important;
+      }
+      .square1{
+          margin-left: 0px !important;
+      }
+      .logo{
+          height: 40px !important;
+          width: 40px !important;
+      }
+      b{
+          font-size: 30px !important;
+      }
+      .animations{
+          display: none;
+      }
+      .animations1{
+          display: none;
+      }
+      .animations2{
+          display: none;
+      }
+      .animations3{
+          display: none;
+      }
+      .animations4{
+          display: none;
+      }
+      .animations5{
+          display: none;
+      }
+      .animations6{
+          display: none;
+      }
+      .animations7{
+          display: none;
+      }
+      .animations8{
+          display: none;
+      }
+      .animations9{
+          display: none;
+      }
+      .animations10{
+          display: none;
+      }
+
+  
+  }
+
+ @media (min-width:321px) 
+{    .display{
+    display: block;
+    } 
+    body{
+        overflow-x: hidden;
+    } 
+    .mobile{
+        height: 300px;
+        width: 300px;
+    }
+    .cards{
+        height: 400px;
+        width: 270px;
+        margin-left: 41px !important;
+    }
+    .cards1{
+        height: 400px;
+        width: 270px;
+        margin-left: 31px !important;
+    }
+    .formargin{
+        margin-left: 10px !important;
+    }
+    .slide-text4{
+        margin-top: 100px !important;
+    }
+    .doctor1{
+        height: 400px !important;
+        width: 270px !important;
+        margin-left: 35px !important;
+
+        }
+    .doctor2{
+        height: 400px;
+        width: 270px;
+        margin-left: 35px !important; 
+    }
+    .doctor3{
+        height: 400px;
+        width: 270px;
+        margin-left: 35px !important;
+    }
+    .main{
+        height: 200px;
+        width: 400px;
+    }
+  
+    .main .slide-text2{
+        font-size: 25px;
+        margin-top: 20px !important;
+    }
+    .main .slide-text3{
+        font-size: 12px;
+        margin-top: 20px !important;
+    }
+    .main .welcome{
+        font-size: 12px;
+        margin-top: 20px !important;
+    }
+    .square{
+        margin-left: 100px !important;
+    }
+    .square1{
+        margin-left: 0px !important;
+    }
+    .logo{
+        height: 70px!important;
+        width: 70px !important;
+    }
+    b{
+        font-size: 40px !important;
+    }
+    
+
+}
+@media (min-width:400px) 
+{    .display{
+    display: block;
+    }
+    body{
+        overflow-x: hidden;
+    } 
+    .mobile{
+        height: 300px;
+        width: 300px;
+    }
+    .cards{
+        height: 400px;
+        width: 350px;
+        margin-left: 20px !important;
+    }
+    .cards1{
+        height: 400px;
+        width: 350px;
+        margin-left: 20px !important;
+    }
+
+    .formargin{
+        margin-left: 0px !important;
+    }
+    .slide-text4{
+        margin-top: 100px !important;
+    }
+    .doctor1{
+        height: 400px !important;
+        width: 350px !important;
+        margin-left: 5px !important;
+
+        }
+    .doctor2{
+        height: 400px;
+        width: 350px;
+        margin-left: 5px !important; 
+    }
+    .doctor3{
+        height: 400px;
+        width: 350px;
+        margin-left: 5px !important;
+    }
+  
+    .main{
+        width: 470px;
+    }
+    .main .slide-text2{
+        font-size: 25px;
+        margin-top: 20px !important;
+    }
+    .main .slide-text3{
+        font-size: 13px;
+        margin-top: 20px !important;
+    }
+    .main .welcome{
+        font-size: 13px;
+        margin-top: 20px !important;
+    }
+    .square{
+        margin-left: 100px !important;
+    }
+    .square1{
+        margin-left: 0px !important;
+    }
+
+}
+
+@media (min-width:530px) 
+{    .display{
+    display: block;
+    }
+    body{
+        overflow-x: hidden;
+    } 
+    .mobile{
+        height: 300px;
+        width: 300px;
+    }
+  
+    .cards{
+        height: 420px;
+        width: 400px;
+        margin-left: 45px !important;
+    }
+    .cards1{
+        height: 420px;
+        width: 400px;
+        margin-left: 26px !important;
+    }
+
+    .formargin{
+        margin-left: 18px !important;
+    }
+    .slide-text4{
+        margin-top: 100px !important;
+    }
+    .doctor1{
+        height: 420px !important;
+        width: 400px !important;
+        margin-left: 45px !important;
+        }
+    .doctor2{
+        height: 420px;
+        width: 400px;
+        margin-left: 45px !important; 
+    }
+    .doctor3{
+        height: 420px;
+        width: 400px;
+        margin-left: 45px !important;
+    }
+    .main{
+        width: 530px;
+    }
+    .main .slide-text2{
+        font-size: 30px;
+        margin-top: 20px !important;
+    }
+    .main .welcome{
+        font-size: 30px;
+        margin-top: 20px !important;
+    }
+    .main .slide-text3{
+        font-size: 16px;
+        margin-top: 20px !important;
+    }
+    .square1{
+        margin-left: 0px !important;
+    }
+
+}
+
+@media (min-width:700px) 
+{    .display{
+    display:  flex ;
+    }
+    body{
+        overflow-x: hidden;
+    } 
+  
+    .cards{
+        height: 420px;
+        width: 230px;
+        margin-left: 20px !important;
+    }
+    .cards1{
+        height: 420px;
+        width: 350px;
+        margin-left: 20px!important;
+    }
+
+    .formargin{
+        margin-left: 0px !important;
+    }
+    .slide-text4{
+        margin-top: 100px !important;
+    }
+    .doctor1{
+        height: 420px !important;
+        width: 230px !important;
+        margin-left: 5px !important;
+        }
+    .doctor2{
+        height: 420px;
+        width: 230px;
+        margin-left: 5px !important;
+    }
+    .doctor3{
+        height: 420px;
+        width: 230px;
+        margin-left: 5px !important;
+    }
+    .doctor2 .slide-text3{
+        margin-left: 25px !important;
+    }
+    .doctor3 .slide-text3
+    {
+        margin-left: 25px !important;
+    }
+    .main{
+        width: 790px;
+        height: 300px;
+    }
+    .main .slide-text2{
+        font-size: 40px;
+        margin-top: 30px !important;
+    }
+    .main .slide-text3{
+        font-size: 22px;
+        margin-top: 40px !important;
+    }
+    .main .welcome{
+        font-size: 22px;
+        margin-top: 10px !important;
+    }
+    .square{
+        margin-left: 250px !important;
+    }
+    .square1{
+        margin-left: 0px !important;
+    }
+    .display1{
+        display: block;
+    }
+    .display2{
+        display: block;
+    }
+
+}
+@media (min-width:800px) 
+{    .display{
+    display:flex ;
+    }
+    body{
+        overflow-x: hidden;
+    } 
+  
+    .cards{
+        height: 420px;
+        width: 270px;
+        margin-left: 20px !important;
+    }
+    .cards1{
+        height: 420px;
+        width: 350px;
+        margin-left: 20px!important;
+    }
+
+    .formargin{
+        margin-left: 0px !important;
+    }
+    .slide-text4{
+        margin-top: 100px !important;
+    }
+    .doctor1{
+        height: 420px !important;
+        width: 230px !important;
+        margin-left: 3px !important;
+        }
+    .doctor2{
+        height: 420px;
+        width: 230px;
+        margin-left: 20px !important;
+    }
+    .doctor3{
+        height: 420px;
+        width: 230px;
+        margin-left: 20px !important;
+    }
+    .main{
+        width: 900px;
+        height: 350px;
+    }
+   
+    .main .slide-text2{
+        font-size: 45px;
+        margin-top: 40px !important;
+    }
+    .main .slide-text3{
+        font-size: 25px;
+        margin-top: 40px !important;
+    }
+    .square{
+        margin-left: 250px !important;
+    }
+    .square1{
+        margin-left: 0px !important;
+    }
+    .display1{
+        display: block;
+    }
+    .display2{
+        display: block;
+    }
+
+}
+
+
+
+@media (min-width:1000px) 
+{    .display{
+    display:  inline-flex ;
+    }
+    body{
+        overflow-x: hidden;
+    } 
+  
+    .cards{
+        height: 420px;
+        width: 300px;
+        margin-left: 20px !important;
+    }
+    .cards1{
+        height: 420px;
+        width: 350px;
+        margin-left: 80px!important;
+    }
+
+    .formargin{
+        margin-left: 0px !important;
+    }
+    .slide-text4{
+        margin-top: 100px !important;
+    }
+    .doctor1{
+        height: 420px !important;
+        width: 300px !important;
+        margin-left: 15px !important;
+        }
+    .doctor2{
+        height: 420px;
+        width: 300px;
+        margin-left:15px !important;
+    }
+    .doctor3{
+        height: 420px;
+        width: 300px;
+        margin-left: 15px !important;
+    }
+    .doctor2 .slide-text3{
+        margin-left: 40px !important;
+    }
+    .doctor3 .slide-text3{
+        margin-left: 40px !important;
+    }
+    .doctor3 .slide-text2{
+        margin-left: 40px !important;
+    }
+    .main{
+        width:1200px;
+        height: 400px;
+    }
+    .main .slide-text2{
+        font-size: 45px;
+        margin-top: 50px !important;
+    }
+    .main .slide-text3{
+        font-size: 25px;
+        margin-top: 40px !important;
+    }
+    .square{
+        margin-left: 320px !important;
+    }
+    .square1{
+        margin-left: 0px !important;
+    }
+    .display1{
+        display: block;
+    }
+    .display2{
+        display: block;
+    }
+
+}
+@media (min-width:1200px) 
+{    .display{
+    display:  flex ;
+    }
+    body{
+        overflow-x: hidden;
+    } 
+  
+    .cards{
+        height: 420px;
+        width: 230px;
+        margin-left: 20px !important;
+    }
+    .cards1{
+        height: 450px;
+        width: 400px;
+        margin-left: 100px!important;
+    }
+
+    .formargin{
+        margin-left: 0px !important;
+    }
+    .slide-text4{
+        margin-top: 125px !important;
+    }
+    .doctor1{
+        height: 400px !important;
+        width: 370px !important;
+        margin-left: 20px !important;
+        }
+    .doctor2{
+        height: 400px;
+        width: 370px;
+        margin-left: 20px !important;
+    }
+    .doctor3{
+        height: 400px;
+        width: 370px;
+        margin-left: 20px !important;
+    }
+    .doctor1 .slide-text2{
+        margin-top: 270px !important;
+    }
+    .doctor2 .slide-text2{
+        margin-top: 270px !important;
+    }
+    .main{
+        height: 500px;
+        width: 1400px;
+    }
+    .main .slide-text2{
+        font-size: 65px;
+        margin-top: 50px !important;
+    }
+    .main .slide-text3{
+        font-size: 35px;
+        margin-top: 40px !important;
+    }
+    .square{
+        margin-left: 420px !important;
+    }
+    .square1{
+        margin-left: 0px !important;
+    }
+    .display1{
+        display: block;
+    }
+    .display2{
+        display: flex;
+    }
+
+}
+@media (min-width:1300px) 
+{    .display{
+    display: flex ;
+    }
+    body{
+        overflow-x: hidden;
+    } 
+  
+    .cards{
+        height: 420px;
+        width: 270px;
+        margin-left: 20px !important;
+    }
+    .cards1{
+        height: 425px;
+        width: 400px;
+        margin-left: 100px!important;
+    }
+
+    .formargin{
+        margin-left: 0px !important;
+    }
+    .slide-text4{
+        margin-top: 125px !important;
+    }
+    .doctor1{
+        height: 400px !important;
+        width: 370px !important;
+        margin-left: 20px !important;
+        }
+    .doctor2{
+        height: 400px;
+        width: 370px;
+        margin-left: 20px !important;
+    }
+    .doctor3{
+        height: 400px;
+        width: 370px;
+        margin-left: 20px !important;
+    }
+    .doctor1 .slide-text2{
+        margin-top: 270px !important;
+        font-size: 35px;
+    }
+    .doctor2 .slide-text2{
+        margin-top: 270px !important;
+    }
+    .doctor3 .slide-text2{
+        margin-top: 270px !important;
+        font-size: 35px;
+    }
+    .main{
+        height: 600px;
+        width: 1525px;
+    }
+   
+    .main .slide-text2{
+        font-size: 60px;
+        margin-top: 40px !important;
+    }
+    .main .slide-text3{
+        font-size: 40px;
+        margin-top: 100px !important;
+    }
+    .main .welcome{
+        font-size: 40px;
+        margin-top: 30px !important;
+    }
+    .square{
+        margin-left: 440px !important;
+    }
+    .square1{
+        margin-left: 0px !important;
+    }
+    .display1{
+        display: block;
+    }
+    .display2{
+        display: flex;
+    }
+    .borderfont{
+        transform: translate(-120%,-50%);
+    }
+    .but{
+        margin-top: 20px !important;
+        margin-left: 40px !important;
+    }
+    .animations{
+        display: block;
+    }
+    .animations1{
+        display: block;
+    }
+    .animations2{
+        display: block;
+    }
+    .animations3{
+        display: block;
+    }
+    .animations4{
+        display: block;
+    }
+    .animations5{
+        display: block;
+    }
+    .animations6{
+        display: block;
+    }
+    .animations7{
+        display: block;
+    }
+    .animations8{
+        display: block;
+    }
+    .animations9{
+        display: block;
+    }
+    .animations10{
+        display: block;
+    }
+    .cards1 .btn{
+        margin-top: 50px !important;
+        margin-left: 45px !important;
+    }
+     .btn:hover{
+        background-color: whitesmoke;
+    }
+
+
+
+}
+
+
+
+
+

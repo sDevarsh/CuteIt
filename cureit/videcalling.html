@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    var script = document.createElement("script");
+  
+    script.type = "text/javascript";
+  
+    script.addEventListener("load", function (event) {
+      const meeting = new VideoSDKMeeting();
+  
+      const config = {
+        name: "Krunal Pabari",
+        apiKey: "7b1478c3-a6d0-426e-9c16-fab9ee4f6bd7", 
+        meetingId: "TELEHEALTH_DEMO", 
+        redirectOnLeave: "https://www.videosdk.live/",
+        micEnabled: true,
+        webcamEnabled: true,
+        participantCanToggleSelfWebcam: true,
+        participantCanToggleSelfMic: true,
+        joinScreen: {
+          visible: true, // Show the join screen ?
+          title: "Tele Health Quick Start", // Meeting title
+          meetingUrl: window.location.href, // Meeting joining url
+        },
+      };
+      
+      meeting.init(config);
+  
+    });
+    script.src = "https://sdk.videosdk.live/rtc-js-prebuilt/0.1.29/rtc-js-prebuilt.js";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  
+  </script>
